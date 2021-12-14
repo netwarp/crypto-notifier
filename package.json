@@ -1,0 +1,17 @@
+{
+  "name": "crypto-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "concat-stream": "^2.0.0",
+    "toml": "^3.0.0",
+    "toml-require": "^1.2.0"
+  }
+}
