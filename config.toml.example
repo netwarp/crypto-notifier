@@ -1,0 +1,5 @@
+CoinMarketCap = 'aaaaa-aaaaaaa-aaaa-aaaaa-aaaaa'
+
+[coins]
+    BTC = [10000, 20000, 30000]
+    ETH = [3900, 2000, 1000]
