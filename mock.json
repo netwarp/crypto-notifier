@@ -1,0 +1,96 @@
+{
+  "status": {
+    "timestamp": "2021-12-14T11:50:55.257Z",
+    "error_code": 0,
+    "error_message": null,
+    "elapsed": 24,
+    "credit_count": 1,
+    "notice": null
+  },
+  "data": {
+    "LTC": {
+      "id": 2,
+      "name": "Litecoin",
+      "symbol": "LTC",
+      "slug": "litecoin",
+      "num_market_pairs": 673,
+      "date_added": "2013-04-28T00:00:00.000Z",
+      "tags": [
+        "mineable",
+        "pow",
+        "scrypt",
+        "medium-of-exchange",
+        "binance-chain",
+        "binance-smart-chain"
+      ],
+      "max_supply": 84000000,
+      "circulating_supply": 69187207.1649582,
+      "total_supply": 84000000,
+      "is_active": 1,
+      "platform": null,
+      "cmc_rank": 18,
+      "is_fiat": 0,
+      "last_updated": "2021-12-14T11:49:02.000Z",
+      "quote": {
+        "USD": {
+          "price": 148.96117206407754,
+          "volume_24h": 1196993447.5087605,
+          "volume_change_24h": 24.5814,
+          "percent_change_1h": 0.04721775,
+          "percent_change_24h": -4.2856857,
+          "percent_change_7d": -9.92272279,
+          "percent_change_30d": -41.11902527,
+          "percent_change_60d": -17.58023273,
+          "percent_change_90d": -18.23469159,
+          "market_cap": 10306207471.132317,
+          "market_cap_dominance": 0.4769,
+          "fully_diluted_market_cap": 12512738453.38,
+          "last_updated": "2021-12-14T11:49:02.000Z"
+        }
+      }
+    },
+    "XMR": {
+      "id": 328,
+      "name": "Monero",
+      "symbol": "XMR",
+      "slug": "monero",
+      "num_market_pairs": 149,
+      "date_added": "2014-05-21T00:00:00.000Z",
+      "tags": [
+        "mineable",
+        "pow",
+        "medium-of-exchange",
+        "privacy",
+        "ringct",
+        "boostvc-portfolio",
+        "electric-capital-portfolio",
+        "galaxy-digital-portfolio"
+      ],
+      "max_supply": null,
+      "circulating_supply": 18045928.8164522,
+      "total_supply": 18045928.8164522,
+      "is_active": 1,
+      "platform": null,
+      "cmc_rank": 44,
+      "is_fiat": 0,
+      "last_updated": "2021-12-14T11:49:06.000Z",
+      "quote": {
+        "USD": {
+          "price": 184.40985631050052,
+          "volume_24h": 173537537.28212,
+          "volume_change_24h": 25.065,
+          "percent_change_1h": 0.38864298,
+          "percent_change_24h": -4.56232382,
+          "percent_change_7d": -9.53720967,
+          "percent_change_30d": -32.76937656,
+          "percent_change_60d": -32.7837881,
+          "percent_change_90d": -31.02919603,
+          "market_cap": 3327847140.0314713,
+          "market_cap_dominance": 0.1539,
+          "fully_diluted_market_cap": 3327847140.03,
+          "last_updated": "2021-12-14T11:49:06.000Z"
+        }
+      }
+    }
+  }
+}
