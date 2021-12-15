@@ -67,8 +67,8 @@ export function filterData(data) {
  * @param {Object} data
  */
 export function getProgress(config, data) {
-	console.log('TICK:')
-	console.table(data)
+
+	console.log('Latest')
 
 	const coins = Object.entries(config.coins)
 	for (const [coin_key, coin_value] of coins) {
@@ -87,6 +87,8 @@ export function getProgress(config, data) {
 
 		}
 		console.log(percent_array)
+		console.log("\n")
 	}
-
+	console.log('-----------------------')
+	console.log("\n")
 }
