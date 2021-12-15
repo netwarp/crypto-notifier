@@ -34,7 +34,6 @@ export async function getDataFromMarket(config) {
 			headers
 		})
 		data = await response.data
-		console.log(data)
 	}
 
 	return data
