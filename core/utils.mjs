@@ -62,13 +62,23 @@ export function filterData(data) {
 	return result
 }
 
+
+function formatDate() {
+	const date = new Date()
+	const hour = date.getHours()
+	const minute = date.getMinutes()
+	const second = date.getSeconds()
+
+	return `${new Date().toLocaleDateString()} ${hour}:${minute}:${second}`
+}
+
 /**
  * @param {Object} config
  * @param {Object} data
  */
 export function getProgress(config, data) {
 
-	console.log('Latest')
+	console.log(`Latest: ${formatDate()} \n`)
 
 	const coins = Object.entries(config.coins)
 	for (const [coin_key, coin_value] of coins) {
