@@ -18,6 +18,6 @@ async function main() {
     getProgress(config, data)
 }
 await main()
-setInterval(main, 1000 * 60 * 60) // every hour
+setInterval(main, 1000 * 60 * 30) // every half hour
 
 
